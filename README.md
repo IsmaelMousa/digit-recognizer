@@ -2,8 +2,11 @@
 
 The Digit Recognizer project aims to accurately identify handwritten digits using the **MNIST** dataset. This dataset consists of tens of thousands of images of handwritten digits, which serves as a classic benchmark for machine learning algorithms.
 
-## Import Required Dependencies
+## Goal
 
+The main goal is to enhance my knowledge in Neural Networks and Computer Vision by developing & training a digit recognition model using **PyTorch**.
+
+## Import Required Dependencies
 
 1. **PyTorch**: For tensor operations and neural network functionalities. Includes `Torchvision` for image processing, dataset handling, and transformations.
 2. **Pandas**: For data manipulation and saving results to CSV.
@@ -56,3 +59,16 @@ The data is transformed and normalized before being loaded into DataLoaders.
 2. Compute test accuracy.
 3. Visualize sample predictions.
 4. Display a few test images with their actual and predicted labels.
+
+## Results
+
+1. Loss value: `0.05`
+2. Accuracy score on training set: `97.98%`
+3. Accuracy score on testing set: `97.26%`
+
+
+## References
+1. [Pytorch Documentation](https://pytorch.org/docs/stable/index.html).
+2. [Torchvision Documentation](https://pytorch.org/vision/stable/index.html).
+3. [Pandas Documentation](https://pandas.pydata.org/docs/user_guide/index.html)
+4. [Matplotlib Documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html)
